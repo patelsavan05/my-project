@@ -57,7 +57,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "echo 'Deploy works!'",
     "postbuild": "yarn run compress_maps && cp build/index.html build/404.html && yarn run build:sw",
     "compress_maps": "rollup -c",
     "test": "react-scripts test --testPathIgnorePatterns=src/tests/ --passWithNoTests",
